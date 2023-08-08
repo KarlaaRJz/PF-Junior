@@ -56,3 +56,9 @@ h1::before{
     font-family: 'Edu SA Beginner', cursive;
 }
 
+footer p{
+    background-color: rgb(236, 188, 236, 0.7);;
+    font-size: medium;
+    color: #020202;
+    text-align: center;
+}

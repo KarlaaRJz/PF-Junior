@@ -32,3 +32,58 @@ h1:hover{
 h1::before{
     content: "✨";
 }
+
+h2{
+    background-color: rgb(175, 246, 226);
+    color: rgb(244, 34, 244);
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.container-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.container-slider .ajolote{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: aquamarine;
+}
+
+.container-slider > img{
+    width: 600px;
+}
+
+footer p{
+    background-color: rgb(236, 188, 236, 0.7);;
+    font-size: medium;
+    color: #020202;
+    text-align: center;
+}

@@ -66,3 +66,10 @@ h1::before{
 .container .contenido:nth-child(3):hover{
     color: rgb(255, 255, 255)
 }
+
+footer p{
+    background-color: rgb(236, 188, 236, 0.7);;
+    font-size: medium;
+    color: #020202;
+    text-align: center;
+}

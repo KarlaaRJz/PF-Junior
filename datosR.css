@@ -32,3 +32,19 @@ h1:hover{
 h1::before{
     content: "✨";
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: center;
+    width: 200px;
+}
+
+footer p{
+    background-color: rgb(236, 188, 236, 0.7);;
+    font-size: medium;
+    color: #020202;
+    text-align: center;
+}
