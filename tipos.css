@@ -34,7 +34,6 @@ h1::before{
 }
 
 h2{
-    background-color: rgb(175, 246, 226);
     color: rgb(244, 34, 244);
     font-family: cursive;
     font-size: 30px;
@@ -74,7 +73,21 @@ h2{
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
-    background-color: aquamarine;
+    background-color: rgb(175, 246, 226);
+}
+
+.container-slider .ajolote .info{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    align-items: center;
+    font-size:larger;
+    color: black;
+    position: relative;
 }
 
 .container-slider > img{
