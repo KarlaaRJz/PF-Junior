@@ -7,6 +7,15 @@ header{
     justify-content: space-between;
 }
 
+button{
+    box-shadow: 0 0 5px rgb(231, 94, 241);
+    border-radius: 100px;
+}
+
+button:hover{
+    box-shadow: 0 0 5px rgb(231, 94, 241), 0 0 25px rgb(231, 94, 241), 0 0 50px rgb(231, 94, 241), 0 0 100px rgb(231, 94, 241), 0 0 200px rgb(231, 94, 241);
+}
+
 .item{
     width: 230px;
     height: 100px;
