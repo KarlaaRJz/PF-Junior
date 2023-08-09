@@ -10,6 +10,7 @@ header{
 .item{
     width: 230px;
     height: 100px;
+    font-family: 'Edu SA Beginner', cursive;
 }
 .item:nth-child(2n+1){
     background-color: rgb(184, 163, 243);
@@ -38,8 +39,27 @@ h1::before{
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 50%;
-    align-items: center;
-    width: 200px;
+    text-align: justify;
+}
+
+.datos1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: justify;
+    width: 600px;
+    height: 400px;
+}
+
+.datos2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: justify;
+    width: 600px;
+    height: 400px;
 }
 
 footer p{

@@ -1,14 +1,5 @@
-function muestra_oculta(id){
-    let div = document.getElementById(id);
-    if(div.style.display == "none"){
-        div.style.display = "flex";
-    }else{
-        div.style.display = "none";
-    }
-}
-
-let slider = document.querySelector(".slider-container")
-let sliderIndividual = document.querySelectorAll(".containar-slider")
+let slider = document.querySelector(".container")
+let sliderIndividual = document.querySelectorAll(".carousel-container")
 let contador = 1;
 let width = sliderIndividual[0].clientWidth
 let intervalo = 3000;
@@ -33,4 +24,13 @@ function slides(){
             contador = 1;
         },1500)
     }
+}
+
+function muestra_oculta(id){
+  let div = document.getElementById(id);
+  if(div.style.display == "none"){
+      div.style.display = "flex";
+  }else{
+      div.style.display = "none";
+  }
 }

@@ -10,6 +10,7 @@ header{
 .item{
     width: 230px;
     height: 100px;
+    font-family: 'Edu SA Beginner', cursive;
 }
 .item:nth-child(2n+1){
     background-color: rgb(184, 163, 243);
@@ -34,15 +35,20 @@ h1::before{
 }
 
 .container{
-    display: grid;
-    width: 200px;
-    height: 200px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: justify;
+    padding: 50px;
 }
 
 .container .contenido{
     text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
 
 .container .contenido:nth-child(1){
@@ -53,18 +59,30 @@ h1::before{
     background-color: rgba(247, 157, 219, 0.901);
     font-family: 'Edu SA Beginner', cursive;
     font-size: 22px;
-    width: 725px;
-    height: 398px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
 
 .container .contenido:nth-child(3){
     background: palevioletred;
     font-family: 'Edu SA Beginner', cursive;
     font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
 
 .container .contenido:nth-child(3):hover{
-    color: rgb(255, 255, 255)
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
 
 footer p{

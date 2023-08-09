@@ -10,6 +10,7 @@ header{
 .item{
     width: 230px;
     height: 100px;
+    font-family: 'Edu SA Beginner', cursive;
 }
 .item:nth-child(2n+1){
     background-color: rgb(184, 163, 243);
@@ -31,4 +32,45 @@ h1:hover{
 }
 h1::before{
     content: "✨";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: justify;
+    padding: 50px;
+}
+
+.container .habitat{
+    background-color: rgba(170, 246, 215, 0.834);
+    font-size: 22px;
+    width: 750px;
+    height: 315px;
+    align-items: center;
+}
+
+.container .habitat:nth-child(4){
+    background-color: rgba(208, 170, 245, 0.89);
+    font-size: 22px;
+    width: 750px;
+    height: 315px;
+    align-items: center;
+}
+
+.img{
+    width: 550px;
+    height: 315px;
+}
+.img2{
+    width: 700px;
+    height: 450px;
+}
+
+footer p{
+    background-color: rgb(236, 188, 236, 0.7);;
+    font-size: medium;
+    color: #020202;
+    text-align: center;
 }
