@@ -62,10 +62,12 @@ h1::before{
 .img{
     width: 550px;
     height: 315px;
+    border-radius: 100px;
 }
 .img2{
     width: 700px;
     height: 450px;
+    border-radius: 800px;
 }
 
 footer p{
